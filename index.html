@@ -1,37 +1,41 @@
-<!DOCTYPE doctype html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blessing Marakalla - Full Stack Developer Portfolio</title>
+    <title>Blessing Marakalla - Portfolio</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <a href="#main-content" class="skip-to-content">Skip to content</a>
 
+    <!-- NAVBAR -->
     <nav class="navbar sticky-top">
-      <div
-        class="container d-flex justify-content-between align-items-center w-100"
-      >
+      <div class="container d-flex justify-content-between align-items-center">
         <div class="logo">Blessing Marakalla</div>
-        <ul class="nav-links d-flex list-unstyled gap-4 mb-0">
-          <li><a href="#home">Home</a></li>
+
+        <ul class="nav-links mb-0">
+          <li><a href="#home" class="active">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -39,73 +43,69 @@
     </nav>
 
     <main id="main-content">
-      <section
-        id="home"
-        class="hero d-flex align-items-center justify-content-center text-center"
-      >
-        <div class="container">
-          <h1>Hi, I'm Blessing Marakalla</h1>
+      <!-- HERO -->
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1>I am Blessing Marakalla</h1>
           <p class="tagline">Full Stack Developer Trainee</p>
           <p class="description">
-            Building responsive and interactive web applications with HTML, CSS,
-            and JavaScript
+            Building responsive and interactive web applications using HTML,
+            CSS, and JavaScript.
           </p>
           <a href="#projects" class="cta-button">View My Work</a>
         </div>
       </section>
 
-      <section id="about" class="about py-5">
+      <!-- ABOUT -->
+      <section id="about" class="about">
         <div class="container">
           <h2>About Me</h2>
+
           <div class="card border-0 shadow-sm overflow-hidden mt-4">
             <div class="row g-0">
-              <div class="col-lg-4 bg-light p-4 p-md-5 border-end">
-                <div class="text-center mb-4">
-                  <img
-                    src="portfolio mage 2.jpg"
-                    alt="Blessing Marakalla"
-                    class="profile-image img-fluid rounded-circle"
-                  />
-                </div>
-                <h3 class="h5 fw-bold mb-3">Profile Details</h3>
-                <ul class="list-unstyled text-muted small mb-4">
-                  <li class="mb-2">
-                    <strong>Name:</strong> Blessing Marakalla
-                  </li>
-                  <li class="mb-2">
-                    <strong>Role:</strong> Full Stack Trainee
-                  </li>
-                  <li class="mb-2">
-                    <strong>Email:</strong> blessingmarakalla@outlook.com
-                  </li>
+              <!-- LEFT SIDE -->
+              <div class="col-lg-4 bg-light p-4 text-center border-end">
+                <!-- PROFILE IMAGE (DO NOT CHANGE) -->
+                <img
+                  src="portfolio mage 2.jpg"
+                  alt="Profile Image"
+                  class="profile-image mb-3"
+                />
+
+                <h3 class="h5 fw-bold">Profile Details</h3>
+
+                <ul class="list-unstyled text-muted small">
+                  <li><strong>Name:</strong> Blessing Marakalla</li>
+                  <li><strong>Role:</strong> Full Stack Trainee</li>
+                  <li><strong>Email:</strong> blessingmarakalla@outlook.com</li>
                 </ul>
-                <h4 class="h6 text-uppercase fw-bold text-muted mb-2">
-                  Core Stack
-                </h4>
-                <div class="d-flex flex-wrap gap-2">
-                  <span class="badge bg-dark px-2 py-1">HTML5</span>
-                  <span class="badge bg-dark px-2 py-1">CSS3</span>
-                  <span class="badge bg-dark px-2 py-1">JavaScript</span>
-                  <span class="badge bg-dark px-2 py-1">Bootstrap 5</span>
+
+                <h4 class="h6 text-uppercase fw-bold mt-3">Core Stack</h4>
+
+                <div class="d-flex flex-wrap gap-2 justify-content-center">
+                  <span class="badge bg-dark">HTML</span>
+                  <span class="badge bg-dark">CSS</span>
+                  <span class="badge bg-dark">JavaScript</span>
+                  <span class="badge bg-dark">Bootstrap</span>
                 </div>
               </div>
-              <div
-                class="col-lg-8 p-4 p-md-5 bg-white d-flex align-items-center"
-              >
+
+              <!-- RIGHT SIDE (YOUR ORIGINAL TEXT - CLEANED ONLY) -->
+              <div class="col-lg-8 p-4 d-flex align-items-center">
                 <p class="m-0">
                   I developed an interest in coding about two years ago after
                   watching a TikTok video about a girl who transitioned from
                   Human Sciences to Tech after a period of unemployment. That
                   one TikTok video sparked my curiosity, and I decided to
-                  explore the world of coding. Since then, I have immesred
-                  myself in the world of web development by attending tech
-                  summits, joining tech communities and short courses. I
-                  currently have a solid foundation in HTML, CSS, and
-                  JavaScript, and I am eager to continue learning and growing as
-                  a developer. My long term interests include expanding into
-                  software testing and data analytics. I enjoy the fact that the
-                  tech industry is constantly evolving, as there is always
-                  something new to learn and improve on
+                  explore the world of coding. Since then, I have immersed
+                  myself in web development by attending tech summits, joining
+                  tech communities, and taking short courses. I currently have a
+                  solid foundation in HTML, CSS, and JavaScript, and I am eager
+                  to continue learning and growing as a developer. My long-term
+                  interests include expanding into software testing and data
+                  analytics. I enjoy that the tech industry is constantly
+                  evolving, as there is always something new to learn and
+                  improve on.
                 </p>
               </div>
             </div>
@@ -113,266 +113,233 @@
         </div>
       </section>
 
-      <section id="skills" class="skills py-5">
-        <div class="container">
-          <h2>Skills</h2>
-          <div class="row g-4 justify-content-center mt-2">
-            <div class="col-12 col-md-4">
-              <div class="skill-card h-100">
-                <h3>HTML</h3>
-                <p>Semantic markup and accessibility</p>
-              </div>
-            </div>
-            <div class="col-12 col-md-4">
-              <div class="skill-card h-100">
-                <h3>CSS</h3>
-                <p>Responsive design and modern layouts</p>
-              </div>
-            </div>
-            <div class="col-12 col-md-4">
-              <div class="skill-card h-100">
-                <h3>JavaScript</h3>
-                <p>Interactive features and dynamic content</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="projects" class="projects py-5">
+      <!-- PROJECTS -->
+      <section id="projects" class="projects">
         <div class="container">
           <h2>Projects</h2>
-          <div class="row g-4 mt-2">
+
+          <div class="row g-4 mt-3">
+            <!-- 1 PORTFOLIO -->
             <div class="col-12 col-md-6 col-lg-4 d-flex">
               <div class="project-card w-100">
                 <div class="project-header">
-                  <h3>Tesla Landing Page</h3>
+                  <h3>Portfolio Website</h3>
                 </div>
+
+                <!-- 🔥 IMAGE PLACEHOLDER (DO NOT REMOVE) -->
                 <div class="project-preview">
                   <img
-                    src="Tesla.jpg.png"
-                    alt="Tesla Landing Page Preview"
+                    src="PorfolioProject.png"
+                    alt="Portfolio Website Screenshot"
                     class="preview-img"
                   />
                 </div>
-                <p>
-                  A responsive landing page showcasing Tesla's design and
-                  features. Built with HTML and CSS to demonstrate modern web
-                  design principles.
-                </p>
-                <div class="project-tech">
-                  <span class="tech-tag">HTML</span>
-                  <span class="tech-tag">CSS</span>
-                </div>
-                <div class="project-links mt-auto">
-                  <a
-                    href="https://blessingprojectt1.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn-secondary"
-                    >View Demo</a
-                  >
-                  <a
-                    href="https://github.com/MadalitsoB/Blessingproject1t.git"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn-secondary"
-                    >View Code</a
-                  >
-                </div>
-              </div>
-            </div>
 
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-              <div class="project-card w-100">
-                <div class="project-header">
-                  <h3>UI Screenshot</h3>
-                </div>
-                <div class="project-preview">
-                  <img
-                    src="ui screenshot.jpg.png"
-                    alt="UI Screenshot Preview"
-                    class="preview-img"
-                  />
-                </div>
                 <p>
-                  A detailed UI design project demonstrating my skills in
-                  creating visually appealing and functional user interfaces.
+                  My personal responsive portfolio built using HTML, CSS, and
+                  Bootstrap.
                 </p>
-                <div class="project-tech">
-                  <span class="tech-tag">UI Design</span>
-                  <span class="tech-tag">HTML</span>
-                  <span class="tech-tag">CSS</span>
-                </div>
-                <div class="project-links mt-auto">
-                  <a
-                    href="https://uiscreenshot3.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn-secondary"
-                    >View Demo</a
-                  >
-                  <a
-                    href="https://github.com/MadalitsoB/BLESSING-UI-SCREENSHOT.git"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn-secondary"
-                    >View Code</a
-                  >
-                </div>
-              </div>
-            </div>
 
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-              <div class="project-card w-100">
-                <div class="project-header">
-                  <h3>Weather App</h3>
-                </div>
-                <div class="project-preview">
-                  <img
-                    src="WEATHERAPP.jpg.png"
-                    alt="Weather App Preview"
-                    class="preview-img"
-                  />
-                </div>
-                <p>
-                  A weather application that fetches real time weather data and
-                  displays it in an interactive interface. Built with HTML, CSS,
-                  and JavaScript.
-                </p>
-                <div class="project-tech">
-                  <span class="tech-tag">HTML</span>
-                  <span class="tech-tag">CSS</span>
-                  <span class="tech-tag">JavaScript</span>
-                </div>
-                <div class="project-links mt-auto">
-                  <a
-                    href="https://s3.amazonaws.com/shecodesio-production/challenge_submissions/files/002/723/478/original/shecodeshomework.html?1761064887"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn-secondary"
-                    >View Demo</a
-                  >
-                  <a
-                    href="https://github.com/MadalitsoB"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn-secondary"
-                    >View Code</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-              <div class="project-card w-100">
-                <div class="project-header">
-                  <h3>Netflix Clone Landing Page</h3>
-                </div>
-                <div class="project-preview">
-                  <img
-                    src="Netflix.jpg.png"
-                    alt="Netflix Clone Preview"
-                    class="preview-img"
-                  />
-                </div>
-                <p>
-                  A high fidelity landing page recreation featuring a striking
-                  hero section, featured video layers, and interactive,
-                  collapsible FAQ accordion components.
-                </p>
-                <div class="project-tech">
-                  <span class="tech-tag">HTML</span>
-                  <span class="tech-tag">CSS</span>
-                  <span class="tech-tag">JavaScript</span>
-                </div>
-                <div class="project-links mt-auto">
-                  <a
-                    href="https://blessingmarakallanetfliclone.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn-secondary"
-                    >View Demo</a
-                  >
-                  <a
-                    href="https://github.com/MadalitsoB/netflix.git"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn-secondary"
-                    >View Code</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-              <div class="project-card project-card-featured w-100">
-                <div class="project-header">
-                  <h3>To-Do List Application</h3>
-                </div>
-                <div class="project-preview">
-                  <img
-                    src="to-dolist.jpg.png"
-                    alt="To-Do List Preview"
-                    class="preview-img"
-                  />
-                </div>
-                <p>
-                  A dynamic task management tool built with structural vanilla
-                  JavaScript. Features full task addition, status updates,
-                  deletions, and active localStorage persistence.
-                </p>
-                <div class="project-tech">
-                  <span class="tech-tag">HTML</span>
-                  <span class="tech-tag">CSS</span>
-                  <span class="tech-tag">JavaScript</span>
-                </div>
-                <div class="project-links mt-auto">
-                  <a
-                    href="https://todolistappfswd.netlify.app/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn-secondary"
-                    >View Demo</a
-                  >
-                  <a
-                    href="https://github.com/MadalitsoB/to-dolist.git"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="btn-secondary"
-                    >View Code</a
-                  >
-                  <a href="case-study.html" class="btn-secondary btn-case-study"
-                    >Case Study</a
-                  >
-                </div>
-              </div>
-            </div>
-
-            <div class="col-12 col-md-6 col-lg-4 d-flex">
-              <div class="project-card w-100">
-                <div class="project-header">
-                  <h3>Developer Analytics Grid</h3>
-                </div>
-                <div class="project-preview">
-                  <div
-                    class="d-flex align-items-center justify-content-center h-100 text-muted small bg-light"
-                  >
-                    Dashboard Mockup Overview
-                  </div>
-                </div>
-                <p>
-                  A conceptual frontend prototype tracking dashboard application
-                  states, metrics, and data processing visualizations.
-                </p>
                 <div class="project-tech">
                   <span class="tech-tag">HTML</span>
                   <span class="tech-tag">CSS</span>
                   <span class="tech-tag">Bootstrap</span>
                 </div>
+
                 <div class="project-links mt-auto">
-                  <a href="#" class="btn-secondary">View Demo</a>
-                  <a href="#" class="btn-secondary">View Code</a>
+                  <a href="#" class="btn-secondary">View Website</a>
+                  <a
+                    href="https://github.com/MadalitsoB/Blessing-2nd-Portfolio.git"
+                    class="btn-secondary"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- TESLA -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+              <div class="project-card w-100">
+                <div class="project-header">
+                  <h3>Tesla Landing Page</h3>
+                </div>
+
+                <div class="project-preview">
+                  <img
+                    src="Tesla.jpg.png"
+                    alt="Tesla Project"
+                    class="preview-img"
+                  />
+                </div>
+
+                <p>Responsive Tesla landing page clone using HTML & CSS.</p>
+
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                </div>
+
+                <div class="project-links mt-auto">
+                  <a
+                    href="https://blessingprojectt1.netlify.app/"
+                    class="btn-secondary"
+                    >View Website</a
+                  >
+                  <a
+                    href="https://github.com/MadalitsoB/Blessingproject1t.git"
+                    class="btn-secondary"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- NETFLIX -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+              <div class="project-card w-100">
+                <div class="project-header">
+                  <h3>Netflix Clone</h3>
+                </div>
+
+                <div class="project-preview">
+                  <img
+                    src="Netflix.jpg.png"
+                    alt="Netflix Project"
+                    class="preview-img"
+                  />
+                </div>
+
+                <p>
+                  High fidelity Netflix UI clone built with HTML, CSS,
+                  JavaScript.
+                </p>
+
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+
+                <div class="project-links mt-auto">
+                  <a
+                    href="https://blessingmarakallanetfliclone.netlify.app/"
+                    class="btn-secondary"
+                    >View Website</a
+                  >
+                  <a
+                    href="https://github.com/MadalitsoB/netflix.git"
+                    class="btn-secondary"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- WEATHER -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+              <div class="project-card w-100">
+                <div class="project-header">
+                  <h3>Weather App</h3>
+                </div>
+
+                <div class="project-preview">
+                  <img
+                    src="WEATHERAPP.jpg.png"
+                    alt="Weather App"
+                    class="preview-img"
+                  />
+                </div>
+
+                <p>Weather app using JavaScript API integration.</p>
+
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+
+                <div class="project-links mt-auto">
+                  <a
+                    href="https://todolistappfswd.netlify.app/"
+                    class="btn-secondary"
+                    >View Website</a
+                  >
+                  <a href="https://github.com/MadalitsoB" class="btn-secondary"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- TO DO -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+              <div class="project-card w-100">
+                <div class="project-header">
+                  <h3>To-Do List App</h3>
+                </div>
+
+                <div class="project-preview">
+                  <img
+                    src="to-dolist.jpg.png"
+                    alt="To Do App"
+                    class="preview-img"
+                  />
+                </div>
+
+                <p>Task manager with local storage functionality.</p>
+
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                  <span class="tech-tag">JavaScript</span>
+                </div>
+
+                <div class="project-links mt-auto">
+                  <a
+                    href="https://todolistappfswd.netlify.app/"
+                    class="btn-secondary"
+                    >View Website</a
+                  >
+                  <a
+                    href="https://github.com/MadalitsoB/to-dolist.git"
+                    class="btn-secondary"
+                    >Code</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- UI DESIGN -->
+            <div class="col-12 col-md-6 col-lg-4 d-flex">
+              <div class="project-card w-100">
+                <div class="project-header">
+                  <h3>UI Design Project</h3>
+                </div>
+
+                <div class="project-preview">
+                  <img
+                    src="ui screenshot.jpg.png"
+                    alt="UI Design"
+                    class="preview-img"
+                  />
+                </div>
+
+                <p>Clean UI layout design demonstrating visual hierarchy.</p>
+
+                <div class="project-tech">
+                  <span class="tech-tag">HTML</span>
+                  <span class="tech-tag">CSS</span>
+                </div>
+
+                <div class="project-links mt-auto">
+                  <a
+                    href="https://uiscreenshot3.netlify.app/"
+                    class="btn-secondary"
+                    >View Website</a
+                  >
+                  <a href="https://github.com/MadalitsoB" class="btn-secondary"
+                    >Code</a
+                  >
                 </div>
               </div>
             </div>
@@ -380,136 +347,35 @@
         </div>
       </section>
 
-      <section id="contact" class="contact py-5">
+      <!-- CONTACT -->
+      <section id="contact" class="contact">
         <div class="container">
-          <h2>Get In Touch</h2>
+          <h2>Let’s Connect</h2>
           <p>
-            I'd love to hear from you! Feel free to reach out through any of the
-            following channels:
+            Feel free to reach out — I’m open to opportunities and
+            collaborations.
           </p>
 
-          <div class="row g-4 justify-content-center mb-5">
-            <div class="col-12 col-md-4">
-              <a
-                href="mailto:blessingmarakalla@outlook.com"
-                class="contact-card d-block h-100 text-decoration-none"
-              >
-                <h3>Email</h3>
-                <p class="mb-0">blessingmarakalla@outlook.com</p>
-              </a>
-            </div>
-            <div class="col-12 col-md-4">
-              <a
-                href="https://github.com/MadalitsoB"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="contact-card d-block h-100 text-decoration-none"
-              >
-                <h3>GitHub</h3>
-                <p class="mb-0">github.com/MadalitsoB</p>
-              </a>
-            </div>
-            <div class="col-12 col-md-4">
-              <a
-                href="https://www.linkedin.com/in/blessing-madalitso-marakalla"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="contact-card d-block h-100 text-decoration-none"
-              >
-                <h3>LinkedIn</h3>
-                <p class="mb-0">Blessing Madalitso Marakalla</p>
-              </a>
-            </div>
-          </div>
-
-          <div class="row justify-content-center mt-5">
-            <div class="col-12 col-md-8 text-start">
-              <form
-                action="#"
-                method="POST"
-                class="bg-white p-4 p-md-5 border rounded shadow-sm"
-              >
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <label for="name" class="form-label small fw-bold"
-                      >Your Name</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="name"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6">
-                    <label for="email" class="form-label small fw-bold"
-                      >Your Email</label
-                    >
-                    <input
-                      type="email"
-                      class="form-control"
-                      id="email"
-                      required
-                    />
-                  </div>
-                  <div class="col-12">
-                    <label for="subject" class="form-label small fw-bold"
-                      >Subject</label
-                    >
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="subject"
-                      required
-                    />
-                  </div>
-                  <div class="col-12">
-                    <label for="message" class="form-label small fw-bold"
-                      >Message</label
-                    >
-                    <textarea
-                      class="form-control"
-                      id="message"
-                      rows="5"
-                      required
-                    ></textarea>
-                  </div>
-                  <div class="col-12 text-end">
-                    <button type="submit" class="btn btn-dark px-4 py-2">
-                      Send Message
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-
-          <div class="d-flex justify-content-center gap-4 mt-5 fs-2 text-muted">
-            <a href="mailto:blessingmarakalla@outlook.com" class="text-reset"
-              ><i class="bi bi-envelope-at"></i
+          <div class="d-flex justify-content-center gap-4 fs-3 mt-3">
+            <a href="mailto:blessingmarakalla@outlook.com"
+              ><i class="bi bi-envelope"></i
             ></a>
-            <a
-              href="https://github.com/MadalitsoB"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-reset"
+            <a href="https://github.com/MadalitsoB"
               ><i class="bi bi-github"></i
             ></a>
-            <a
-              href="https://www.linkedin.com/in/blessing-madalitso-marakalla"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="text-reset"
-              ><i class="bi bi-linkedin"></i
-            ></a>
+            <a href="https://linkedin.com"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
       </section>
     </main>
 
+    <!-- FOOTER -->
     <footer class="footer">
       <div class="container">
-        <p>&copy; 2026 Blessing Marakalla. All rights reserved.</p>
+        <p>
+          Developed by Blessing Marakalla using Bootstrap, for portfolio
+          purposes.
+        </p>
       </div>
     </footer>
   </body>
