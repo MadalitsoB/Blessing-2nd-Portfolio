@@ -25,9 +25,7 @@ body {
   line-height: 1.6;
 }
 
-/* =========================
-   SKIP LINK
-========================= */
+/* Accessibility */
 .skip-to-content {
   position: absolute;
   top: -100px;
@@ -42,9 +40,7 @@ body {
   top: 20px;
 }
 
-/* =========================
-   NAVBAR
-========================= */
+/* NAVIGATION */
 .navbar {
   background: white;
   border-bottom: 1px solid var(--border);
@@ -71,7 +67,6 @@ body {
   position: relative;
 }
 
-/* ACTIVE + HOVER LINE (RUBRIC REQUIREMENT) */
 .nav-links a::after {
   content: "";
   position: absolute;
@@ -88,9 +83,7 @@ body {
   width: 100%;
 }
 
-/* =========================
-   HERO (FULL BLEED + OVERLAY)
-========================= */
+/* HERO */
 .hero {
   position: relative;
   height: 100vh;
@@ -102,7 +95,6 @@ body {
   color: white;
 }
 
-/* DARK OVERLAY (IMPORTANT FOR MARKS) */
 .hero::before {
   content: "";
   position: absolute;
@@ -150,9 +142,7 @@ body {
   border: 2px solid white;
 }
 
-/* =========================
-   ABOUT
-========================= */
+/* ABOUT */
 .about {
   padding: 100px 20px;
 }
@@ -163,7 +153,6 @@ body {
   font-weight: 800;
 }
 
-/* LEFT IMAGE */
 .profile-image {
   width: 140px;
   height: 140px;
@@ -171,14 +160,11 @@ body {
   object-fit: cover;
 }
 
-/* BADGES */
 .badge {
   font-size: 0.75rem;
 }
 
-/* =========================
-   PROJECTS (RUBRIC CORE)
-========================= */
+/* PROJECTS */
 .projects {
   padding: 100px 20px;
   background: var(--light-bg);
@@ -234,7 +220,14 @@ body {
   font-size: 0.7rem;
 }
 
-/* BUTTONS */
+.project-links {
+  padding: 0 15px 15px;
+  margin-top: auto;
+  display: flex;
+  gap: 10px;
+}
+
+/* BUTTONS & FORMS */
 .btn-secondary {
   display: inline-block;
   padding: 8px 14px;
@@ -251,40 +244,6 @@ body {
   color: black;
 }
 
-.project-links {
-  padding: 0 15px 15px;
-  margin-top: auto;
-  display: flex;
-  gap: 10px;
-}
-
-/* =========================
-   CONTACT (RUBRIC CORE)
-========================= */
-.contact {
-  padding: 100px 20px;
-  text-align: center;
-}
-
-.contact h2 {
-  font-weight: 800;
-  margin-bottom: 10px;
-}
-
-.contact p {
-  color: var(--muted);
-}
-
-.contact i {
-  transition: var(--transition);
-}
-
-.contact i:hover {
-  transform: translateY(-4px);
-  color: black;
-}
-
-/* FORM */
 form {
   text-align: left;
 }
@@ -299,9 +258,68 @@ form {
   box-shadow: none;
 }
 
-/* =========================
-   FOOTER
-========================= */
+/* CONTACT CARDS STYLING */
+.contact {
+  padding: 100px 20px;
+}
+
+.section-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: var(--muted);
+  margin-bottom: 5px;
+}
+
+.contact h2 {
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.contact-intro {
+  max-width: 600px;
+  margin: 0 auto;
+  color: var(--muted);
+}
+
+.contact-card {
+  display: block;
+  background: #ffffff;
+  border: 1px solid var(--border);
+  padding: 30px 20px;
+  text-align: center;
+  color: var(--text);
+  height: 100%;
+  transition: var(--transition);
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.contact-icon {
+  font-size: 2rem;
+  color: var(--primary);
+  margin-bottom: 15px;
+}
+
+.contact-card h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contact-card p {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 0;
+  word-wrap: break-word;
+}
+
+/* FOOTER */
 .footer {
   background: black;
   color: white;
@@ -309,9 +327,7 @@ form {
   padding: 20px;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+/* RESPONSIVE STYLES */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2rem;
